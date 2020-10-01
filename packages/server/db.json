@@ -2,50 +2,50 @@
   "books": [
     {
       "id": 1,
-      "title": "A Scanner Darkly"
+      "name": "A Scanner Darkly"
     },
     {
       "id": 2,
-      "title": "Uzumaki"
+      "name": "Uzumaki"
     },
     {
       "id": 3,
-      "title": "Sabrina"
+      "name": "Sabrina"
     },
     {
       "id": 4,
-      "title": "The World Of Edena"
+      "name": "The World Of Edena"
     },
     {
       "id": 5,
-      "title": "The Incal"
+      "name": "The Incal"
     },
     {
       "id": 6,
-      "title": "Like a Velvet Glove Cast in Iron"
+      "name": "Like a Velvet Glove Cast in Iron"
     },
     {
       "id": 7,
-      "title": "Familiar Face"
+      "name": "Familiar Face"
     },
     {
       "id": 8,
-      "title": "Goblin Girl"
+      "name": "Goblin Girl"
     },
     {
       "id": 9,
-      "title": "Roly Poly"
+      "name": "Roly Poly"
     },
     {
       "id": 10,
-      "title": "Killing and Dying"
+      "name": "Killing and Dying"
     },
     {
       "id": 11,
-      "title": "Black Hole"
+      "name": "Black Hole"
     },
     {
-      "title": "Patience",
+      "name": "Patience",
       "id": 12
     }
   ]
