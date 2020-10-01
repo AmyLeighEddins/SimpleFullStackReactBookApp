@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
 function App() {
-  return (
+  const [books, setBooks] = React.useState([]);
+React.useEffect(() => {
+    fetch("http://localhost:3001/books")
+      .then(res => res.json())
+      .then(result => {
+        setBooks(result);
+      });
+  }, []);
+return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Favorite Books</h1>
+      <p>Keep track of your favorites!</p>
+      <ul>
+        {books.map(book => (
+          <li key={book.id}>{book.title}</li>
+        ))}
+      </ul>
     </div>
   );
 }
-
 export default App;
