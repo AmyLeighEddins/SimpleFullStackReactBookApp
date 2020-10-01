@@ -1,0 +1,12 @@
+{
+  "name": "book-manager",
+  "scripts": {
+    "build": "yarn --cwd packages/client build",
+    "start": "yarn --cwd packages/client start",
+    "test": "yarn --cwd packages/client test"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
