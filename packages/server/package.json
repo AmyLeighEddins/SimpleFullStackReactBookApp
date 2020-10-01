@@ -1,0 +1,11 @@
+{
+  "name": "@book-manager/server",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
